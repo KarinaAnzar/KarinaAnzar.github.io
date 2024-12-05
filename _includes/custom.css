@@ -1,0 +1,15 @@
+body {
+    background-color: #f4f8f3; /* Light greenish background */
+    color: #2b2b2b; /* Neutral text color */
+}
+a {
+    color: #76c7c0; /* Muted teal for links */
+    text-decoration: none;
+}
+a:hover {
+    color: #a8d5ba; /* Light green hover effect */
+}
+header, footer {
+    background-color: #a8d5ba; /* Light green accents for header/footer */
+    color: #ffffff;
+}
