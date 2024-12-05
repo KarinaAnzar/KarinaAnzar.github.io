@@ -27,7 +27,7 @@ The choice of a color scheme can significantly alter how data is perceived:
      
 3. **Categorical Schemes**: Perfect for qualitative data (e.g., land use types).
    - Example: Assigning unique colors to urban, rural, and industrial zones.
-     ![Categorical_graph](images/Qualitative_scale.png)
+     ![Categorical_graph](images/Quantitative_scale.png)
 
 This project emphasizes the importance of choosing meaningful color schemes to create accurate and compelling maps.
 
