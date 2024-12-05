@@ -23,7 +23,7 @@ The choice of a color scheme can significantly alter how data is perceived:
 2. **Diverging Schemes**: Ideal for data centered around a critical value (e.g., temperature anomalies).
    - Example: Blue for below-average, red for above-average.
      
-3. **Categorical Schemes**: Perfect for qualitative data (e.g., land use types).
+3. **Qualitative Schemes**: Perfect for qualitative data (e.g., land use types).
    - Example: Assigning unique colors to urban, rural, and industrial zones.
      
   ![graphic](images/Scales.png)
