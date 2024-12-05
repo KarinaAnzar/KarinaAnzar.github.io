@@ -1,4 +1,7 @@
-title: test site
-#logo
-description: biographer | phD
 theme: jekyll-theme-minimal
+title: Advanced GIS Project
+description: User-friendly GIS visualization tool using Python, GeoPandas, and Matplotlib.
+
+git add .
+git commit -m "Added Jekyll theme"
+git push
