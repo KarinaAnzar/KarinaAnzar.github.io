@@ -19,12 +19,15 @@ Maps are powerful tools for interpreting geographic data. Effective visualizatio
 The choice of a color scheme can significantly alter how data is perceived:
 1. **Sequential Schemes**: Best for numeric or ordered data (e.g., population density, elevation).
    - Example: Shades of green to represent increasing vegetation density.
-![Example Map](images/Sequential_scale.png)
+      ![Sequential_graph](images/Sequential_scale.png)
 
 2. **Diverging Schemes**: Ideal for data centered around a critical value (e.g., temperature anomalies).
    - Example: Blue for below-average, red for above-average.
+      ![Divergent_graph](images/Diverging_scale.png)
+     
 3. **Categorical Schemes**: Perfect for qualitative data (e.g., land use types).
    - Example: Assigning unique colors to urban, rural, and industrial zones.
+     ![Categorical_graph](images/Qualitative_scale.png)
 
 This project emphasizes the importance of choosing meaningful color schemes to create accurate and compelling maps.
 
