@@ -41,9 +41,34 @@ This project emphasizes the importance of choosing meaningful color schemes to c
 
 ---
 
+### **Python Code Highlights**
+Here are some important parts of the Python code behind this project:
+
+#### **1. List Shapefiles in a Directory**
+This function scans a directory and lists all available shapefiles, making it easier for users to select a file.
+```python
+
+def list_shapefiles(directory):
+    all_files = os.listdir(directory)
+    shapefiles = [file for file in all_files if file.endswith((".shp", ".SHP"))]
+    return shapefiles
+```
+
 ### **Repository Link**
 Find the full source code and detailed documentation in the repository:
 
 [**Adv. GIS Plotting Repository**](https://github.com/KarinaAnzar/GIS_Plotting.git)
 
 ---
+### **Example Output Maps**
+Sequential Map: U.S. Female population by State
+
+![sequentialMap](images/sequential_FEMALEPOP.png)
+
+Dual color Map: U.S. Separated population by State
+
+![dualMap](images/dual_separated.png)
+
+Divergent Map: U.S. Population 65 years >
+
+![divergentMap](images/divergent_age.png)
