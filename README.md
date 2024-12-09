@@ -104,7 +104,7 @@ def choose_colormap(scheme_type, palette=None, custom_colors=None):
         raise ValueError("Invalid scheme type. Choose 'sequential', 'divergent', 'qualitative', or 'dual_gradient'.")
 ```
 
-#### **4. Function to plot
+#### **4. Function to plot**
 This function creates a plot with the desired characteristics and allows to save the map
 ```python
 def plot_geodataframe(gdf, column, scheme_type="sequential", palette=None, legend_bins=None, custom_colors=None, vmin=None, vmax=None):
@@ -143,6 +143,7 @@ def plot_geodataframe(gdf, column, scheme_type="sequential", palette=None, legen
     plt.show()
 ```
 
+---
 ### **Repository Link**
 Find the full source code and detailed documentation in the repository:
 
