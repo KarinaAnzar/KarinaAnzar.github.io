@@ -2,10 +2,7 @@
 ## **GIS Color Schemes Plotting**
 
 ### **About This Project**
-This project provides a user-friendly Python tool for visualizing geographic data with GeoPandas and Matplotlib. The tool allows users to:
-- Select shapefiles from a directory.
-- Choose specific attributes for visualization.
-- Apply customizable color schemes tailored to the data's characteristics.
+This project provides a user-friendly Python tool for visualizing geographic data with GeoPandas and Matplotlib.
 
 ### **Why Correct Visualization Matters**
 Maps are powerful tools for interpreting geographic data. Effective visualization ensures:
@@ -29,7 +26,7 @@ The choice of a color scheme can significantly alter how data is perceived:
   ![graphic](images/Scales.png)
      
      
-This project emphasizes the importance of choosing meaningful color schemes to create accurate and compelling maps.
+This code emphasizes the importance of choosing meaningful color schemes to create accurate and compelling maps.
 
 ---
 
@@ -44,17 +41,8 @@ This project emphasizes the importance of choosing meaningful color schemes to c
 ### **Python Code Highlights**
 Here are some important parts of the Python code behind this project:
 
-#### **1. List Shapefiles in a Directory**
-This function scans a directory and lists all available shapefiles, making it easier for users to select a file.
-```python
 
-def list_shapefiles(directory):
-    all_files = os.listdir(directory)
-    shapefiles = [file for file in all_files if file.endswith((".shp", ".SHP"))]
-    return shapefiles
-```
-
-#### **2. Color scheme and color palette choice**
+#### **1. Color scheme and color palette choice**
 This part of the script allows the user to choose a color scheme and color palette and shows links to the ColorBrewer page for guidence.
 ```python
     # ColorBrewer links for guidance
@@ -79,7 +67,7 @@ This part of the script allows the user to choose a color scheme and color palet
         palette = input(f"Choose a palette for {scheme_type} (or press Enter for default): ")
 ```
 
-#### **3. Function to choose a color map**
+#### **2. Function to choose a color map**
 This function chooses a colormap based on scheme type, palette, or custom color stops
 ```python
 def choose_colormap(scheme_type, palette=None, custom_colors=None):
@@ -104,7 +92,7 @@ def choose_colormap(scheme_type, palette=None, custom_colors=None):
         raise ValueError("Invalid scheme type. Choose 'sequential', 'divergent', 'qualitative', or 'dual_gradient'.")
 ```
 
-#### **4. Function to plot**
+#### **3. Function to plot**
 This function creates a plot with the desired characteristics and allows to save the map
 ```python
 def plot_geodataframe(gdf, column, scheme_type="sequential", palette=None, legend_bins=None, custom_colors=None, vmin=None, vmax=None):
