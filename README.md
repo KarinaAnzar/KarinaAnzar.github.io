@@ -2,7 +2,7 @@
 ## **GIS Color Schemes Plotting**
 
 ### **About This Project**
-This project provides a user-friendly Python tool for visualizing geographic data with GeoPandas and Matplotlib.
+This script provides a user-friendly Python tool for visualizing geographic data with GeoPandas and Matplotlib.
 
 ### **Why Correct Visualization Matters**
 Maps are powerful tools for interpreting geographic data. Effective visualization ensures:
@@ -133,7 +133,7 @@ def plot_geodataframe(gdf, column, scheme_type="sequential", palette=None, legen
 
 ---
 ### **Repository Link**
-Find the full source code and detailed documentation in the repository:
+Find the full source code and other useful scripts for pollting in the repository:
 
 [**Adv. GIS Plotting Repository**](https://github.com/KarinaAnzar/GIS_Plotting.git)
 
